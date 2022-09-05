@@ -1,0 +1,44 @@
+<mat-toolbar class="color">
+
+    <h1> vs-shoppy</h1>
+    <div>
+        <span><input type="text"class="txt"  placeholder="search for brands,products,and all varieties"/> </span>
+    </div>
+
+    <span><mat-icon style="color:#F94892; margin-left:-35px;margin-top:8px;" >search</mat-icon></span>
+
+
+    <button mat-raised-button style="margin-left:8px;height:35px;width:2cm" >Login</button>
+
+    <button mat-raised-button [matMenuTriggerFor]="menu" style="margin-left:20px;width:2cm;height:35px"  > 
+        Menu 
+       </button>
+      <mat-menu #menu="matMenu" >
+        <button mat-menu-item >
+            <mat-icon  style="color:#F94892">notifications</mat-icon>
+            <span>notifications </span>
+          </button>
+        <button mat-menu-item >
+          <mat-icon  style="color:#F94892">trending_up</mat-icon>
+          <span>advertise up</span>
+        </button>
+        <button mat-menu-item >
+          <mat-icon style="color:#F94892" >help</mat-icon>
+          <span>24*7 customer care</span>
+        </button>
+        <button mat-menu-item  >
+          <mat-icon  style="color:#F94892">download</mat-icon>
+          <span>download</span>
+        </button>
+      </mat-menu>
+
+      <button  mat-icon-button class="example-icon" disableRipple="" aria-label="Example icon-button with share icon">
+        <a> <mat-icon>shopping_cart</mat-icon>
+         <span style="font-size:25px;margin-left:5px; top:2px">cart</span> </a>
+         <span matBadge="" matBadgeOverlap="false"></span>
+       </button> 
+    
+    
+   
+ 
+</mat-toolbar>

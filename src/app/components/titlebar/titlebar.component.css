@@ -1,0 +1,23 @@
+.color{
+    background-color: #F94892;
+}
+h1{
+    color:aliceblue;
+    font-weight: 800;
+    font-style: italic;
+    font-family:  "Times New Roman";
+    font-size: 28px;
+    padding-left: 200px;
+   
+}
+.txt{
+    width:15cm;
+    height: 33px;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.example-icon{
+    margin-left: 10cm;
+    color:aliceblue
+}

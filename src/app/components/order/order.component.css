@@ -1,0 +1,138 @@
+/* 
+#fname{
+    width: 300px;
+    height: 30px;
+}
+#lname{
+    width: 300px;
+    height: 30px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+}
+#address{
+    width: 300px;
+    height: 30px;
+}
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}  
+#billing{
+    width: 300px;
+    height: 30px;
+}
+.input{
+    width: 300px;
+    height: 30px; 
+}
+.example-card{
+    margin: 10%;
+    width: 400px
+   
+}
+.input1{
+    width: 308px;
+    height: 36px; 
+}
+.content{
+    margin-left: 25px;
+}
+mat-card-header{
+    margin-left: 10px;
+} */
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+  .example-card{
+    margin: 10%;
+    width: 600px;
+    margin-left: 60px;
+   
+}
+#email{
+    width: 400px;
+}
+#btn{
+    width: 250px;
+    margin-left: 75px;
+}
+.order{
+  margin:10px 10px 15px;
+  
+}
+.edit{
+  float: right;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* .edit{
+
+margin-right: 60%;
+float: right;
+} */
+
+mat-card-title{
+  margin-left: 25px;
+}
+.card{
+  width: 20cm;
+  margin-left: 20px;
+ 
+}
+.form{
+  width: 12cm;
+  height: 12cm;
+}
+
+#fname{
+  width: 6cm;
+  height:auto
+}
+#mobnumber{
+  width: 6cm;
+  height:auto
+}
+#inputEmail4{
+  width: 6cm;
+  height:auto;
+}
+#Locality{
+  width: 6cm;
+  height:auto;
+}
+#inputAddress{
+  width: 14cm;
+  height: 2cm;
+}
+#inputCity{
+  width: 6cm;
+  height:auto;
+}
+#inputState{
+  width: 6cm;
+  height:auto;
+}
+#landmark{
+  width: 6cm;
+  height:auto;
+}
+.container{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+

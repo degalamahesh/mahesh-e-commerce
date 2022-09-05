@@ -1,0 +1,56 @@
+.img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    top: 80px;
+    bottom: 30px;
+}
+
+
+.crd{
+    width: 17cm;
+    height: 17cm;
+    padding-left: 90px;
+}
+.in1{
+    width: 13.5cm;
+}
+.in{
+    width: 9cm;
+}
+.ex{
+    width: 120px;
+    margin-left: 15px;
+}
+.card1{
+    width: 7cm;
+}
+.cvv{
+    width: 80px;
+    margin-left: 18px;
+}
+.expansion{
+    width: 21cm;
+  
+}
+.btn{
+    width: 13.5cm;
+}
+
+.expansion{
+    width: 21cm;
+    margin-left: 80px;
+  }
+
+  .text{
+    width: 5cm;
+    height: 1.4cm;
+    margin: 0px 0px 0px 8px;
+  }
+
+  
+  .remove{
+    float: right;
+    border:none;
+    outline:none;
+  }

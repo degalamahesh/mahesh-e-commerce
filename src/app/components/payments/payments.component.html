@@ -1,0 +1,94 @@
+<mat-expansion-panel class="expansion">
+    <mat-expansion-panel-header>
+    add credit/debit cards
+    </mat-expansion-panel-header>
+  
+    <ng-template matExpansionPanelContent>
+     
+        <mat-card class="crd">
+            
+            <mat-card-title align="center">
+                payment
+            </mat-card-title><br><br>
+            <mat-card-content>
+                <mat-card-title>saved cards</mat-card-title> <br> <br>
+                  <table>
+                    <tr>
+               <td> <img src="data:image/png;base64,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" alt="" width="40px" height="40px"> </td> 
+                      <td >
+                    <mat-form-field appearance="outline" color="accent" class="in">
+                      <mat-label>Card Number</mat-label>
+                      <input matInput placeholder="xxxx xxxx xx12 3456" value="">
+                    </mat-form-field>
+                </td>
+                <td> <button mat-button color="accent" class="remove" disableRipple>remove card</button></td>
+            </tr>
+
+            <tr>
+                <td> <img src="data:image/png;base64,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" alt="" width="40px" height="40px">  </td>
+                <td >
+                    <mat-form-field appearance="outline" color="accent" class="in">
+                      <mat-label>Card Number</mat-label>
+                      <input matInput placeholder="xxxx xxxx xx12 3456" value="">
+                    </mat-form-field>
+                </td>
+
+                <td> <button mat-button color="accent" class="remove" disableRipple>remove card</button></td>
+            </tr>
+            </table> <br> <br>
+             
+            <mat-card-title>Add new card</mat-card-title> <br> <br>
+
+            <mat-form-field appearance="outline" color="accent" class="in1" >
+                <mat-label>Card holder's name</mat-label>
+                <input matInput placeholder="" value="Degala Mahesh">
+              </mat-form-field> <br>
+              
+              <table>
+                <tr>
+                     <td>
+              <mat-form-field appearance="outline" color="accent" class="card1" >
+                <mat-label>Card Number</mat-label>
+                <input matInput placeholder="" value="1234 5678 9000 1479">
+              </mat-form-field>
+             </td> <br> <br> <br> <br> <br>  
+        
+            <td>
+                <mat-form-field appearance="outline" color="accent" class="ex" >
+                    <mat-label>Expire</mat-label>
+                    <input matInput placeholder="" value="">
+                  </mat-form-field>
+            </td>
+
+            <td>
+                
+                <mat-form-field appearance="outline" color="accent" class="cvv" >
+                    <mat-label>CVV</mat-label>
+                    <input matInput placeholder="" value="">
+                  </mat-form-field>
+                
+            </td>
+            </tr>
+            </table>
+
+            <button mat-raised-button color="accent" class="btn">Add card</button>
+
+            </mat-card-content>
+
+        </mat-card>
+    
+
+    </ng-template>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel class="expansion">
+    <mat-expansion-panel-header>
+       <h3> pay for later </h3>
+    </mat-expansion-panel-header>
+    <mat-panel-description>
+      <input type="text" value="1479" class="text" style="font-size:40px;letter-spacing: 10px;padding-left:12px;" /> 
+      <span><input type="text" class="text" placeholder="Enter the characters"> </span>
+      <button type="submit" class="form-control" style="background-color:#F94892;width:5cm;height:1.4cm;color:#FFF;margin-left: 8px;">Confirm Order</button>
+    </mat-panel-description>
+  </mat-expansion-panel>
+

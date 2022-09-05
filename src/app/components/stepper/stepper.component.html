@@ -1,0 +1,18 @@
+<!-- <button mat-raised-button (click)="isOptional = !isOptional">
+    {{!isOptional ? 'Enable optional steps' : 'Disable optional steps'}}
+  </button> -->
+
+
+<!-- <mat-stepper linear > -->
+  <mat-stepper orientation="vertical" linear>
+    <mat-step completed="true"  >
+      <app-order></app-order> 
+      <router-outlet></router-outlet>  
+    </mat-step>
+    <mat-step  completed="true" >
+         <app-expansion></app-expansion>
+    </mat-step>
+    <mat-step completed="true">
+          <app-payments></app-payments>
+    </mat-step>
+</mat-stepper>

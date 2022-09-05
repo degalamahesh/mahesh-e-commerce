@@ -1,0 +1,393 @@
+<!-- <mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>delivery address</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content class="content">
+    <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+    <div>
+     <label for="fname">First name</label> <br> 
+     <input type="text" placeholder="" id="fname" formControlName="fname"  class="input">
+    </div> <br>
+
+    <div>
+     <label for="lname">Last name</label> <br> 
+     <input type="text" placeholder="" id="lname" formControlName="lname"  class="input">
+    </div> <br>
+
+    <div>
+     <label for="email">Email</label>  <br> 
+     <input type="text" placeholder="" id="email" formControlName="email"  class="input">
+    </div>  <br>
+
+    <div>
+      <label for="mobile">Mobile number</label>  <br> 
+      <input type="text" placeholder="" id="mobile" formControlName="mobile"  class="input">
+     </div>  <br>
+
+    <div>
+      <label for="billing">Billing</label>  <br> 
+      <input type="text" placeholder="" id="billing" formControlName="billing"  class="input">
+     </div> 
+
+     
+     <div>
+       <br> 
+      <input type="checkbox" placeholder="" id="check" name="address" value="address"  (click)="add()"> 
+      <span><label for="check">Add new address</label> </span>
+     </div> <br>
+     
+     <div *ngIf="address">
+
+      <div>
+        <label for="cou">country</label> <br>
+        <select class="input1" id="cou">country
+          <option></option>
+          <option>india</option>
+          <option>pakistan</option>
+          <option>nepal</option>
+          <option>bhutan</option>
+          <option>sri lanka</option>
+          <option>china</option>
+          <option>america</option>
+          <option>europe</option>
+        </select>
+      </div> <br>
+
+      <div>
+        <label for="sta">state</label> <br>
+        <select class="input1" id="sta">state
+          <option></option>
+          <option>andhra pradesh</option>
+          <option>telangana</option>
+          <option>karnataka</option>
+          <option>tamilnadu</option>
+          <option>kerala</option>
+          <option>maharastra</option>
+          <option>odisha</option>
+          <option>madhya pradesh</option>
+          <option>uttar pradesh</option>
+        </select>
+      </div> <br>
+
+      <div>
+        <label for="di">district</label>  <br> 
+        <select id="di" class="input1">district
+          <option></option>
+          <option>kadapa</option>
+          <option>kurnool</option>
+          <option>anantapur</option>
+          <option>chittor</option>
+          <option>nellore</option>
+          <option>guntur</option>
+          <option>prakasam</option>
+          <option>krishna</option>
+          <option>west godavari</option>
+          <option>east godavari</option>
+          <option>vijayawada</option>
+        </select>
+       </div> <br>
+
+       <div>
+        <label for="ci">city</label>  <br> 
+        <select placeholder="cities" id="ci" class="input1">city 
+          <option></option>
+          <option>proddatur</option>
+          <option>buddayapalli</option>
+          <option>sivalayam</option>
+        </select> 
+       </div> <br>
+
+     <div>
+      <label for="str">street</label>  <br> 
+      <input type="text" placeholder="" id="str" formControlName="street"  class="input">
+     </div> <br>
+
+     <div>
+      <label for="co">colony</label>  <br> 
+      <input type="text" placeholder="" id="co" formControlName="colony"  class="input">
+     </div> <br>
+
+     <div>
+      <label for="la">landmark</label>  <br> 
+      <input type="text" placeholder="" id="la" formControlName="landmark"  class="input">
+     </div> <br>
+     
+    </div>  <br>
+
+
+    <button mat-raised-button color="accent">submit</button>
+
+
+    </form>
+  </mat-card-content>
+
+</mat-card> -->
+
+
+<!-- <mat-card class="example-card" #address >
+ 
+<form class="example-form">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label style="font-size:30px;color:#F94892" >Delivary Address  </mat-label>
+    <input matInput disabled >
+  </mat-form-field>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width" appearance="fill" >
+      <mat-label>First name</mat-label>
+      <input matInput [formControl]="firstFormControl" >
+    </mat-form-field></td>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+    </mat-autocomplete>
+
+    <td><mat-form-field class="example-full-width" appearance="fill" id="lname">
+      <mat-label> Last Name </mat-label>
+      <input matInput [formControl]="lastFormControl">
+    </mat-form-field></td>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+    </mat-autocomplete>
+  </tr>
+
+  <tr>
+    <td><mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>pincode</mat-label>
+      <input matInput #postalCode maxlength="6" placeholder="" value="" [formControl]="pincode">
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      </mat-autocomplete>
+
+      
+    </mat-form-field></td>
+
+    <td><mat-form-field class="example-full-width" appearance="fill" id="lname">
+      <mat-label>Locality</mat-label>
+      <input matInput placeholder="proddatur" [formControl]="locality">
+    </mat-form-field></td>
+  </tr>
+
+  <tr id="email">
+    <td><form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill" >
+        <mat-label>Email</mat-label>
+        <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+               placeholder="Ex. pat@example.com">
+        <mat-hint>Errors appear instantly!</mat-hint>
+        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+          Please enter a valid email address
+        </mat-error>
+        <mat-error *ngIf="emailFormControl.hasError('required')">
+          Email is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      </mat-autocomplete>
+    </form></td>
+
+    <td><mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>mobile number</mat-label>
+      <input matInput #postalCode maxlength="10" placeholder="" value="" [formControl]="mobile">
+      <mat-hint align="end">{{postalCode.value.length }} / 10</mat-hint>
+    </mat-form-field></td>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+    </mat-autocomplete>
+  </tr>
+   </table>
+
+  <p>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Address</mat-label>
+      <textarea matInput placeholder="Ex. 100 Main St"> </textarea>
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Address 2</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+    </mat-autocomplete>
+  </p>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Country</mat-label>
+      <input matInput placeholder="Ex. San Francisco">
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>State</mat-label>
+      <input matInput placeholder="Ex. California">
+    </mat-form-field></td>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+    </mat-autocomplete>
+    
+  </tr> 
+  <tr>
+  
+    <td><mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>town</mat-label>
+      <input matInput placeholder="Ex. California">
+    </mat-form-field></td>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Land Mark</mat-label>
+      <input matInput placeholder="near modern high school">
+    </mat-form-field>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+    </mat-autocomplete>
+  </tr>
+
+
+
+</table> <br>
+
+<button mat-raised-button color="accent" id="btn">submit</button>
+</form>
+</mat-card> -->
+
+<div class="container" >
+<mat-card-title class="title">  Delivery Address </mat-card-title>
+<mat-card class="card" >
+  
+
+  <mat-card-content>
+    <div *ngFor="let add of getList">
+    <div class="order" *ngIf="update">
+    <mat-radio-button value="1"></mat-radio-button>
+    <span> <label style="font-weight:500;font-size:18px;">{{add.name}} </label></span>
+    <span style="margin-left:10px"> {{add.addressType}} </span>
+    <span> <label style="font-weight:500;margin-left:13px;font-size: 14px ;">{{add.mobile}} </label></span>
+     <!-- <a routerLink="/update/{{add.id}}" class="edit" (click)="editAddress()">Edit</a> -->
+    <!-- <a [routerLink] = "['/update',1]"  style="margin-left:400px"> edit </a> -->
+
+    <button class="edit" [value]="add.id"  (click)="editAddress($event)">edit</button>
+    <p>{{add.address}},{{add.locality}},{{add.city}},{{add.state}}-  {{add.pincode}}</p>
+
+    <button mat-flat-button color="accent">Save and Deliver Here</button>
+    <!-- <button mat-flat-button color="primary" >update</button> -->
+    </div>
+  </div> <br> 
+
+     <div *ngIf="edit">
+       <!-- <mat-expansion-panel>
+         <mat-expansion-panel-header>
+      
+          <mat-icon>add</mat-icon> <span id="title">Edit Address</span>
+        </mat-expansion-panel-header> 
+         <ng-template matExpansionPanelContent>  -->
+          <div class="card" style="width: 40rem; height: 43rem; padding-left:5px">
+            <form [formGroup]="editResto" (ngSubmit)="collection()">
+              <div class="container">
+                <div class="form-row">
+                  <div class="form-group col-md-6"> <br>
+                    <label for="fname"> Name</label>
+                    <input type="text" class="form-control" id="fname" placeholder="" formControlName="name">
+                  </div>
+                  <div class="form-group col-md-6"> <br>
+                    <label for="mobnumber">mobile number</label>
+                    <input type="text" class="form-control" id="mobnumber" placeholder="" formControlName="mobile">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">pincode</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="" formControlName="pincode">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="Locality">Locality</label>
+                    <input type="text" class="form-control" id="Locality" placeholder="" formControlName="locality">
+                  </div>
+                </div>
+                <div class="form-group">
+                   <label for="inputAddress">Address</label> <span>
+                     <!-- <input type="textarea" class="form-control" id="inputAddress" placeholder="">   -->
+                    <textarea id="inputAddress" class="form-control" rows="4" cols="50" formControlName="address"></textarea>
+                  </span>
+                </div>
+      
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity" formControlName="city">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control" formControlName="state">
+                      <option selected>Choose...</option>
+                      <option>Andhra pradesh</option>
+                      <option>Telangana</option>
+                      <option>kerala</option>
+                      <option>karnataka</option>
+                      <option>tamilnadu</option>
+                      <option>maharastra</option>
+                      <option>odisha</option>
+                      <option>uttar pradesh</option>
+                      <option>madhya pradesh</option>
+      
+      
+                    </select>
+                  </div>
+                </div> <br>
+      
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="landmark">landmark</label>
+                    <input type="text" class="form-control" id="landmark" placeholder="" formControlName="landmark">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="mobnumber">Alternate mobile number(optional)</label>
+                    <input type="text" class="form-control" id="mobnumber" placeholder="" formControlName="alternate">
+                  </div>
+                </div>
+      
+      
+      
+      
+                <!-- <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div> -->
+      
+                <p>Address type</p>
+                  <input type="radio" id="html" name="addressType" value="Home" formControlName="addressType">
+                  <label for="html"> Home(all day delivery)</label><br>
+                  <span> <input type="radio" id="css" name="addressType" value="Work" formControlName="addressType">
+                    <label for="css">Work (Delivery between 10a.m-5p.m)</label></span> <br> <br>
+      
+                <!-- <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label for="add">Home (all day delivery)</label><br>
+                    <input type="radio" id="add" name="Address" value="Home">
+                  </div>
+                  <div class="form-group col-md-6">
+      
+                    <input type="radio" id="addr" name="Address" value="Work ">
+                    <label for="addr">Work (Delivery between 10a.m-5p.m)</label>
+                  </div>
+                </div>  -->
+      
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <button type="submit" class="form-control"
+                      style="background-color:#F94892;width:5cm;height:1.3cm;color:#FFF">submit</button>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <button type="button" (click)="close()">cancel</button>
+      
+                  </div>
+                </div> 
+      
+      
+      
+      
+              </div>
+            </form>
+          </div>
+        <!-- </ng-template>
+      </mat-expansion-panel> -->
+     </div>
+  </mat-card-content>
+</mat-card>
+</div>
+
+

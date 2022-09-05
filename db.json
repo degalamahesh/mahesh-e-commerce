@@ -1,0 +1,242 @@
+{
+  "user": [
+    {
+      "name": "degala mahesh",
+      "mobile": "9603970840",
+      "pincode": "516360",
+      "locality": "bollavaram",
+      "address": "2/08",
+      "addressType": "Home",
+      "city": "proddatur",
+      "state": "Andhra pradesh",
+      "landmark": "near modern high school",
+      "alternate": "8309859929",
+      "id": 1
+    },
+    {
+      "name": "degala varshitha",
+      "mobile": "9701889178",
+      "pincode": "516360",
+      "locality": "bollavarm",
+      "address": "2/08",
+      "addressType": "Home",
+      "city": "proddatur",
+      "state": "Andhra pradesh",
+      "landmark": "near modern high school",
+      "alternate": "8885512213",
+      "id": 2
+    },
+    {
+      "name": "nauman nagoor valli",
+      "mobile": "7659099408",
+      "pincode": "522002",
+      "locality": "srinivasa rao pet",
+      "address": "29-2-172, 2/3",
+      "addressType": "Home",
+      "city": "guntur",
+      "state": "Andhra pradesh",
+      "landmark": "near masjid",
+      "alternate": "9876543210",
+      "id": 3
+    },
+    {
+      "name": "mahammad",
+      "mobile": "9876543210",
+      "pincode": "522022",
+      "locality": "srinivasa rao peta",
+      "address": "2/3 brodipet",
+      "addressType": "Home",
+      "city": "guntur",
+      "state": "Andhra pradesh",
+      "landmark": "near masjid",
+      "alternate": "6301541361",
+      "id": 4
+    },
+    {
+      "name": "k.vishnu priya",
+      "mobile": "9876543210",
+      "pincode": "522022",
+      "locality": "brodipet",
+      "address": "2/08/321/54",
+      "addressType": "Work",
+      "city": "guntur",
+      "state": "Andhra pradesh",
+      "landmark": "near zphs school",
+      "alternate": "8976543210",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "vivo",
+      "image": "https://rukminim1.flixcart.com/image/312/312/kzd147k0/mobile/m/c/f/-original-imagbe5qknarjywp.jpeg?q=70",
+      "category": "mobiles",
+      "subcategory": "vivo mobile",
+      "price": 21999,
+      "features": "best camera phone with long lasting life."
+    },
+    {
+      "id": 2,
+      "name": "iphone",
+      "image": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/u/z/t/iphone-11-256-c-mwmd2hn-a-apple-0-original-imafkg24wszdhzy3.jpeg?q=70",
+      "category": "mobiles",
+      "subcategory": "iphone",
+      "price": 99999,
+      "features": "evergreen ios phone no one can hack this mobile"
+    },
+    {
+      "id": 3,
+      "name": "sandisk pen drive",
+      "image": "https://rukminim1.flixcart.com/image/612/612/kqse07k0/pendrive/type-a-to-micro-usb/r/l/l/ultra-dual-sddd3-064g-i35-sandisk-original-imag4pzb62zsewdw.jpeg?q=70",
+      "category": "mobiles",
+      "subcategory": "pendrive",
+      "price": 500,
+      "features": "expandable upto 128gb memory"
+    },
+    {
+      "id": 4,
+      "name": "mobile screen card",
+      "image": "https://rukminim1.flixcart.com/image/612/612/k58hwnk0/screen-guard/edge-to-edge-tempered-glass/j/8/j/satarupa-sata284923-original-imafeewq8hzymyws.jpeg?q=70",
+      "category": "mobiles",
+      "subcategory": "screen card",
+      "price": 300,
+      "features": "very strong one..."
+    },
+    {
+      "id": 5,
+      "name": "samsung washing machine",
+      "image": "https://rukminim1.flixcart.com/image/312/312/kn3i1zk0/washing-machine-new/u/s/2/7-ww70t502dax-tl-samsung-original-imagfukdnyy9bdq3.jpeg?q=70",
+      "category": "Electronics",
+      "subcategory": "samsung washing machine",
+      "price": 15000,
+      "features": "very new version..it is an automatic version"
+    },
+    {
+      "id": 6,
+      "name": "whirlpool washing machine",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l3t2fm80/washing-machine-new/5/n/z/-original-imageumxmmx5sydw.jpeg?q=70",
+      "category": "Electronics",
+      "subcategory": "whirlpool washing machine",
+      "price": 12000,
+      "features": "low price with best advanced qualities"
+    },
+    {
+      "id": 7,
+      "name": "vu led tv 53 inches",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l3nco7k0/television/t/v/h/65-qpm-vu-original-imageq6kvjaddhdx.jpeg?q=70",
+      "category": "Electronics",
+      "subcategory": "vu tv",
+      "price": 40000,
+      "features": "best sound and good visualisation screen"
+    },
+    {
+      "id": 8,
+      "name": "preethi mixer",
+      "image": "https://rukminim1.flixcart.com/image/312/312/l4d2ljk0/mixer-grinder-juicer/a/7/r/-original-imagf9tx3y8quypu.jpeg?q=70",
+      "category": "Electronics",
+      "subcategory": "mixer",
+      "price": 3500,
+      "features": "best company product"
+    },
+    {
+      "id": 9,
+      "name": "dennis lingo",
+      "image": "https://rukminim1.flixcart.com/image/660/792/kvtuxe80/shirt/v/d/s/l-men-s-casual-blast-denim-shirt-design-up-original-imag8n8wpsgzzcyj.jpeg?q=50",
+      "category": "fashions",
+      "subcategory": "men's clothes",
+      "price": 1000,
+      "features": "best appearance shirt with good colour"
+    },
+    {
+      "id": 10,
+      "name": "us polo",
+      "image": "https://rukminim1.flixcart.com/image/660/792/l37mtu80/jean/c/v/3/38-udjen0370-u-s-polo-assn-original-imagedvpp73fvvjd.jpeg?q=50",
+      "category": "fashions",
+      "subcategory": "men's clothes",
+      "price": 400,
+      "features": "best appearance shirt with good colour"
+    },
+    {
+      "id": 11,
+      "name": "generic",
+      "image": "https://rukminim1.flixcart.com/image/660/792/l111lzk0/kids-dress/m/3/v/8-9-years-jacket-frock-celebrity-club-original-imagczhea3ruzdvm.jpeg?q=50",
+      "category": "fashions",
+      "subcategory": "men's clothes",
+      "price": 400,
+      "features": "best appearance shirt with good colour"
+    },
+    {
+      "id": 11,
+      "name": "langa voni",
+      "image": "https://rukminim1.flixcart.com/image/660/792/ksnjp8w0/lehenga-choli/d/u/c/free-sleeveless-sky-yellow-r-h-comapany-original-imag66g7vgjhb7hs.jpeg?q=50",
+      "category": "fashions",
+      "subcategory": "girl's clothes",
+      "price": 400,
+      "features": "best appearance dress with good colour"
+    },
+    {
+      "id": 12,
+      "name": "dhruvi trendz",
+      "image": "https://m.media-amazon.com/images/I/81SYkmrIELL._AC_UL320_.jpg",
+      "category": "fashions",
+      "subcategory": "girl's clothes",
+      "price": 900,
+      "features": "best appearance saree with good colour"
+    },
+    {
+      "id": 13,
+      "name": "green gold ring",
+      "image": "https://rukminim1.flixcart.com/image/660/792/jx257680/ring/g/w/b/adjustable-nl5017-ring-nilu-s-collection-original-imafhh3qyhjvnusp.jpeg?q=50",
+      "category": "jewellary",
+      "subcategory": "ring",
+      "price": 35000,
+      "features": "beautiful ring"
+    },
+    {
+      "id": 14,
+      "name": "necklace",
+      "image": "https://rukminim1.flixcart.com/image/660/792/k91o6fk0/jewellery-set/k/t/2/263cb1960-d2-sukkhi-original-imafqxh67aepp9yn.jpeg?q=50",
+      "category": "jewellary",
+      "subcategory": "necklace",
+      "price": 60000,
+      "features": "beautiful necklace"
+    },
+    {
+      "id": 15,
+      "name": "ladies ring",
+      "image": "https://rukminim1.flixcart.com/image/660/792/krce64w0/ring/3/1/w/free-size-ffrg026-ring-thrillz-original-imag55zv2vv7nkwu.jpeg?q=50",
+      "category": "jewellary",
+      "subcategory": "ladies sring",
+      "price": 60000,
+      "features": "beautiful hand ring"
+    },
+    {
+      "id": 16,
+      "name": "saral home round pack",
+      "image": "https://rukminim1.flixcart.com/image/612/612/l12h1u80/dining-table/w/e/j/1524-6-seater-0-rosewood-sheesham-dtb-gtc-221-ganpati-arts-762-original-imagcpk7md7jwgns.jpeg?q=70",
+      "category": "homes and furnitures",
+      "subcategory": "dining table",
+      "price": 15000,
+      "features": "rose wood table"
+    },
+    {
+      "id": 17,
+      "name": "weaving poems hand towel set",
+      "image": "https://rukminim1.flixcart.com/image/612/612/l3uhvgw0/bath-towel/u/g/3/plain-hand-towels-40-x-60-cm-4-15-74-fi3239-yellow-weaves-23-6-original-imagevjkygw4fhtg.jpeg?q=70",
+      "category": "homes and furnitures",
+      "subcategory": "blankets",
+      "price": 500,
+      "features": "best fabric clothes"
+    },
+    {
+      "id": 18,
+      "name": "bvm group pack",
+      "image": "https://rukminim1.flixcart.com/image/612/612/kj61gnk0-0/vehicle-pull-along/z/j/p/unbreakable-pack-of-3-mini-monster-4-wheel-friction-powered-push-original-imafysjghahcb53y.jpeg?q=70",
+      "category": "beauty,toys and more",
+      "subcategory": "children toys",
+      "price": 700,
+      "features": "best quality product"
+    }
+  ]
+}
